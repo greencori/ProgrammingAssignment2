@@ -55,3 +55,10 @@ cacheSolve <- function(x) {
   ## finally return  the inverse
   m
 }
+
+
+## run the function using:
+## rm(list=ls()); source('cachematrix.R'); x <- matrix(rnorm(9),3,3); xx <- makeCacheMatrix(x); cacheSolve(xx) 
+## clears all; loads relevant functions; creates a new 3x3 matrix; runs the makeCM function; creates/retrieves inverse
+
+## check that it returns the cache, if present, by running: cacheSolve(xx)
